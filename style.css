@@ -1,0 +1,39 @@
+.body
+{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.contanier
+{
+    
+    display:grid;
+    width:400px;
+    height:450px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.col
+{
+    border:1px solid black;
+    
+    width:100%;
+    text-align: center;
+    font-size: 120px;
+    height: 148px;
+}
+.button a{
+ 
+    border: none;
+    color: black;
+     padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 712px;
+  }
